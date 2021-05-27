@@ -1,0 +1,22 @@
+{
+  "name": "cherami",
+  "version": "0.0.1",
+  "description": "Email service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminFerge/cherami.git"
+  },
+  "author": "Benjámin Ferge <benjamin.ferge@protonmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/BenjaminFerge/cherami/issues"
+  },
+  "homepage": "https://github.com/BenjaminFerge/cherami#readme",
+  "dependencies": {
+    "nodemailer": "^6.6.1"
+  }
+}
