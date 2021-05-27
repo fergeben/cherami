@@ -1,0 +1,11 @@
+{
+    "transport": {
+        "host": "smtp.mailtrap.io",
+        "port": 2525,
+        "auth": {
+            "user": "SECRET",
+            "pass": "SECRET"
+        }
+    },
+    "port": 1918
+}
