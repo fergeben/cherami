@@ -35,13 +35,15 @@ app.get("/", (_, res) => {
         errors += 'Please specify "text" or "html"\n';
     }
 
+    const options = body.options ?? undefined;
+
     if (errors) {
         res.statusCode = 400;
         res.send(errors);
         return;
     }
 
-    const info = await service.send(from, to, subject, text, html);
+    const info = await service.send(from, to, subject, text, html, options);
     res.send(info);
 }).listen(port, () => {
     console.log(`CherAmi listening at http://localhost:${port}`);
