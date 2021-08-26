@@ -1,6 +1,6 @@
 {
-  "name": "cherami",
-  "version": "0.0.1",
+  "name": "cheramijs",
+  "version": "0.1.0",
   "description": "Email service",
   "main": "index.js",
   "scripts": {
@@ -8,17 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BenjaminFerge/cherami.git"
+    "url": "git+https://github.com/prfsszr/cheramijs.git"
   },
-  "author": "Benjámin Ferge <benjamin.ferge@protonmail.com>",
+  "author": "Benjámin J. Ferge <benjamin.ferge@protonmail.com>",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/BenjaminFerge/cherami/issues"
+    "url": "https://github.com/prfsszr/cheramijs/issues"
   },
-  "homepage": "https://github.com/BenjaminFerge/cherami#readme",
+  "homepage": "https://github.com/prfsszr/cheramijs#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "lodash.merge": "^4.6.2",
     "nodemailer": "^6.6.1"
   }
 }
